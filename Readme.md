@@ -4,7 +4,8 @@ Uma simples API feita com [Express.js](https://expressjs.com/) e [Sequelize ORM]
 ## Endpoints :link:
 
 #### LISTING USERS
-`METHOD:` GET
+`METHOD:` GET 
+
 `ENDPOINT:` [/users]()
 
 `RETURN:`
@@ -33,7 +34,9 @@ Uma simples API feita com [Express.js](https://expressjs.com/) e [Sequelize ORM]
 
 #### CREATE USER
 `METHOD:` POST
+
 `ENDPOINT:` [/users]()
+
 `BODY:`
 | FIELD    | TYPE    |
 |----------|---------|
@@ -61,14 +64,16 @@ Uma simples API feita com [Express.js](https://expressjs.com/) e [Sequelize ORM]
 	"age": "18",
 	"password": "1234567891",
 	"createdAt": "2020-05-13T13:44:14.462Z",
-    "updatedAt": "2020-05-13T14:40:41.602Z"
+  "updatedAt": "2020-05-13T14:40:41.602Z"
 }
 ```
 ---
 
 #### UPDATE USER
 `METHOD:` PUT
+
 `ENDPOINT:` [/users/:id]()
+
 `BODY:`
 | FIELD    | TYPE    |
 |----------|---------|
