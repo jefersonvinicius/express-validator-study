@@ -7,7 +7,7 @@ module.exports = {
   },
   async store(req, res) {
     const user = await User.create(req.body);
-    return res.json(user);
+    return res.status(201).json(user);
   },
   async update(req, res) {
     const user = await User.findOne({ where: { id: req.params.id } });
