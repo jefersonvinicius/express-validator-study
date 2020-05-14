@@ -16,7 +16,9 @@ Uma simples API feita com [Express.js](https://expressjs.com/) e [Sequelize ORM]
     "username": "jeferson",
     "email": "jeferson.viniciuscrc@gmail.com",
     "age": "18",
-    "password": "1234567891"
+    "password": "1234567891",
+    "createdAt": "2020-05-13T13:44:14.462Z",
+    "updatedAt": "2020-05-13T14:40:41.602Z"
   },
   {	
     "id": 2,
