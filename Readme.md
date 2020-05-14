@@ -12,20 +12,20 @@ Uma simples API feita com [Express.js](https://expressjs.com/) e [Sequelize ORM]
 ```
 [
 	{	
-		"id": 1,
-		"username": "jeferson",
-		"email": "jeferson.viniciuscrc@gmail.com",
-		"age": "18",
-		"password": "1234567891"
+    "id": 1,
+    "username": "jeferson",
+    "email": "jeferson.viniciuscrc@gmail.com",
+    "age": "18",
+    "password": "1234567891"
 	},
-	{	
-		"id": 2,
-		"username": "sebastiao",
-		"email": "sebastiao.cunha@gmail.com",
-		"age": "79",
-		"password": "1234567891",
-		"createdAt": "2020-05-13T13:44:14.462Z",
-	    "updatedAt": "2020-05-13T14:40:41.602Z"
+   {	
+    "id": 2,
+    "username": "sebastiao",
+    "email": "sebastiao.cunha@gmail.com",
+    "age": "79",
+    "password": "1234567891",
+    "createdAt": "2020-05-13T13:44:14.462Z",
+    "updatedAt": "2020-05-13T14:40:41.602Z"
 	}
 ]
 ```
@@ -48,22 +48,22 @@ Uma simples API feita com [Express.js](https://expressjs.com/) e [Sequelize ORM]
 `EXAMPLE BODY`: 
 ```
 {	
-	"username": "jeferson",
-	"email": "jeferson.viniciuscrc@gmail.com",
-	"age": "18",
-	"password": "1234567891"
+  "username": "jeferson",
+  "email": "jeferson.viniciuscrc@gmail.com",
+  "age": "18",
+  "password": "1234567891"
 }
 ```
 
 `RETURN:`
 ```
 {	
-	"id": 3,
-	"username": "jeferson",
-	"email": "jeferson.viniciuscrc@gmail.com",
-	"age": "18",
-	"password": "1234567891",
-	"createdAt": "2020-05-13T13:44:14.462Z",
+  "id": 3,
+  "username": "jeferson",
+  "email": "jeferson.viniciuscrc@gmail.com",
+  "age": "18",
+  "password": "1234567891",
+  "createdAt": "2020-05-13T13:44:14.462Z",
   "updatedAt": "2020-05-13T14:40:41.602Z"
 }
 ```
@@ -88,10 +88,10 @@ Uma simples API feita com [Express.js](https://expressjs.com/) e [Sequelize ORM]
 `EXAMPLE BODY`: 
 ```
 {	
-	"username": "jeferson", (optional)
-	"email": "jeferson.viniciuscrc@gmail.com", (optional)
-	"age": "18", (optional)
-	"password": "1234567891" (optional)
+  "username": "jeferson", (optional)
+  "email": "jeferson.viniciuscrc@gmail.com", (optional)
+  "age": "18", (optional)
+  "password": "1234567891" (optional)
 }
 ```
 
