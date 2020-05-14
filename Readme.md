@@ -1,5 +1,5 @@
 
-Uma simples API feita com [Express.js](https://expressjs.com/) e [Sequelize ORM]([https://sequelize.org/](https://sequelize.org/)) para fim de estudos sobre validações com a biblioteca [express-validator](https://express-validator.github.io/docs/)
+Uma simples API feita com [Express.js](https://expressjs.com/) e [Sequelize ORM](https://sequelize.org/) para fim de estudos sobre validações com a biblioteca [express-validator](https://express-validator.github.io/docs/)
 
 ## Endpoints :link:
 
@@ -11,14 +11,14 @@ Uma simples API feita com [Express.js](https://expressjs.com/) e [Sequelize ORM]
 `RETURN:`
 ```
 [
-	{	
+  {	
     "id": 1,
     "username": "jeferson",
     "email": "jeferson.viniciuscrc@gmail.com",
     "age": "18",
     "password": "1234567891"
-	},
-   {	
+  },
+  {	
     "id": 2,
     "username": "sebastiao",
     "email": "sebastiao.cunha@gmail.com",
@@ -26,7 +26,7 @@ Uma simples API feita com [Express.js](https://expressjs.com/) e [Sequelize ORM]
     "password": "1234567891",
     "createdAt": "2020-05-13T13:44:14.462Z",
     "updatedAt": "2020-05-13T14:40:41.602Z"
-	}
+  }
 ]
 ```
 
