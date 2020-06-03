@@ -4,6 +4,9 @@ const UserValidator = require('./validators/UserValidator');
 
 const routes = Router();
 
+routes.get('/', (request, response) => {
+  return response.send('Running...');
+});
 routes.get('/users', UserController.index);
 routes.post('/users', UserValidator.store, UserController.store);
 routes.put('/users/:id', UserValidator.update, UserController.update);
