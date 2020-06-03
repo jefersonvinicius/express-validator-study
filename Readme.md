@@ -6,7 +6,7 @@ Uma simples API feita com [Express.js](https://expressjs.com/) e [Sequelize ORM]
 #### LISTING USERS
 `METHOD:` GET 
 
-`ENDPOINT:` [/users]()
+`ENDPOINT:` /users
 
 `RETURN:`
 ```
@@ -37,7 +37,7 @@ Uma simples API feita com [Express.js](https://expressjs.com/) e [Sequelize ORM]
 #### CREATE USER
 `METHOD:` POST
 
-`ENDPOINT:` [/users]()
+`ENDPOINT:` /users
 
 `BODY:`
 | FIELD    | TYPE    |
@@ -74,7 +74,7 @@ Uma simples API feita com [Express.js](https://expressjs.com/) e [Sequelize ORM]
 #### UPDATE USER
 `METHOD:` PUT
 
-`ENDPOINT:` [/users/:id]()
+`ENDPOINT:` /users/:id
 
 `BODY:`
 | FIELD    | TYPE    |
@@ -101,7 +101,26 @@ Uma simples API feita com [Express.js](https://expressjs.com/) e [Sequelize ORM]
 
 #### UPDATE USER
 `METHOD:` DELETE
-`ENDPOINT:` [/users/:id]()
+
+`ENDPOINT:` /users/:id
+
 `PARAMS:` 
 - :id -> user id in server
 
+---
+
+# Como executar?
+
+## Clonando repositório
+
+- `git clone https://github.com/jefersonvinicius/express-validator-study.git`
+- `cd express-validator-study`
+- `npm install && npm run sequelize db:migrate && npm run dev`
+- A aplicação será servida em http://localhost:3333
+
+## Docker 
+Se você usa docker, pode simplesmente executar:
+```
+docker run -d --name app -p 3333:3333 jefersonvinicius/express-validator-study
+```
+A aplicação será servida em http://localhost:3333
